@@ -1,0 +1,13 @@
+POST http://localhost:9002/creditcard
+Content-Type: application/json
+
+{
+  "number": 39492093494,
+  "expiration": "12/10",
+  "cvv": 493,
+  "owner": "Rouslan Khayaouri"
+}
+
+###
+
+GET http://localhost:9002/creditcard/{{id}}

@@ -1,21 +1,18 @@
 package com.falcontech.services;
 
+import static com.mongodb.client.model.Filters.eq;
+
 import com.falcontech.model.CreditCard;
 import com.falcontech.model.CreditCardResponse;
 import com.google.common.hash.Hashing;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
-import com.mongodb.client.result.InsertOneResult;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
-import org.bson.Document;
-import org.bson.conversions.Bson;
-import org.bson.types.ObjectId;
-
 import java.nio.charset.StandardCharsets;
 import java.util.Optional;
-
-import static com.mongodb.client.model.Filters.eq;
+import org.bson.Document;
+import org.bson.conversions.Bson;
 
 @ApplicationScoped
 public class CreditcardService {

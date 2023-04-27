@@ -18,9 +18,9 @@ public class CreditCardController {
     CreditcardService creditcardService;
 
     @GET
-    @Path("/{id}")
-    public Optional<CreditCard> getAddress(@PathParam("id") String id) {
-        return creditcardService.getByID(id);
+    @Path("/{hash}")
+    public Optional<CreditCard> getAddress(@PathParam("hash") String hash) {
+        return creditcardService.getByHash(hash);
     }
 
     @POST

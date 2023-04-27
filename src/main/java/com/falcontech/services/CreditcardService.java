@@ -22,19 +22,22 @@ public class CreditcardService {
   @Inject MongoClient mongoClient;
 
   public CreditCardResponse persist(CreditCard creditcard) {
-    Document document =
-        new Document()
-            .append("number", creditcard.number())
-            .append("expiration", creditcard.expiration())
-            .append("cvv", creditcard.cvv())
-            .append("owner", creditcard.owner())
-            .append("hash", setHash(creditcard));
-    InsertOneResult result = getCollection().insertOne(document);
-    return new CreditCardResponse(result.getInsertedId().toString());
+    String hash = setHash(creditcard);
+    if (!verifyIfExists(hash)) {
+      Document document =
+              new Document()
+                      .append("number", creditcard.number())
+                      .append("expiration", creditcard.expiration())
+                      .append("cvv", creditcard.cvv())
+                      .append("owner", creditcard.owner())
+                      .append("hash", setHash(creditcard));
+      getCollection().insertOne(document);
+    }
+    return new CreditCardResponse(hash);
   }
 
-  public Optional<CreditCard> getByID(String id) {
-    Bson filer = eq("_id", new ObjectId(id));
+  public Optional<CreditCard> getByHash(String hash) {
+    Bson filer = eq("hash", hash);
     return Optional.ofNullable(
         getCollection()
             .find(filer)
@@ -46,6 +49,11 @@ public class CreditcardService {
                     document.getString("owner"),
                     document.getString("hash")))
             .first());
+  }
+
+  public boolean verifyIfExists(String hash) {
+    Bson filer = eq("hash", hash);
+    return getCollection().find(filer).iterator().hasNext();
   }
 
   private String setHash(CreditCard creditCard) {

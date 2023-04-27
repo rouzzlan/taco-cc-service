@@ -1,3 +1,3 @@
 package com.falcontech.model;
 
-public record CreditCardResponse(String id) {}
+public record CreditCardResponse(String hash) {}

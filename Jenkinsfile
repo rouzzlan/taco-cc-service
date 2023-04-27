@@ -4,7 +4,7 @@ pipeline {
         jdk 'mandrel-java17-22.3.2.0-Final'
     }
     environment {
-        DOCKER_TAG = 'harbour.739.net/library/cc-service-service:0.0.2'
+        DOCKER_TAG = 'harbour.739.net/library/cc-service-service:0.0.1'
     }
     stages {
         stage('Setup') {

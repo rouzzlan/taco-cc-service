@@ -1,0 +1,126 @@
+GET http://localhost:9002/creditcard/974dcfa2e95c543eaf0a63ba75b2f11a6b0a74d3afcc4a0b28c641a98eca1465
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-28T001535.200.json
+
+###
+
+POST http://localhost:9002/creditcard
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "number": 39492093494,
+  "expiration": "12/10",
+  "cvv": 493,
+  "owner": "Rouslan Khayaouri"
+}
+
+<> 2023-04-28T001528.201.json
+
+###
+
+GET http://localhost:9002/creditcard/974dcfa2e95c543eaf0a63ba75b2f11a6b0a74d3afcc4a0b28c641a98eca1465
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-28T001519.200.json
+
+###
+
+GET http://localhost:9002/creditcard/974dcfa2e95c543eaf0a63ba75b2f11a6b0a74d3afcc4a0b28c641a98eca1465
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-28T000643.200.json
+
+###
+
+POST http://localhost:9002/creditcard
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "number": 39492093494,
+  "expiration": "12/10",
+  "cvv": 493,
+  "owner": "Rouslan Khayaouri"
+}
+
+<> 2023-04-28T000618.201.json
+
+###
+
+GET http://localhost:9002/creditcard/644adb48ab40482df4974d27
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-27T232501.200.json
+
+###
+
+GET http://localhost:9002/creditcard/644adb48ab40482df4974d27
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-27T232435.200.json
+
+###
+
+GET http://localhost:9002/creditcard/644adb48ab40482df4974d27
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-04-27T231701.200.json
+
+###
+
+POST http://localhost:9002/creditcard
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "number": 39492093494,
+  "expiration": "12/10",
+  "cvv": 493,
+  "owner": "Rouslan Khayaouri"
+}
+
+<> 2023-04-27T223000.201.json
+
+###
+
+POST http://localhost:9002/creditcard
+Content-Type: application/json
+Content-Length: 98
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "number": 39492093494,
+  "expiration": "12/10",
+  "cvv": 493,
+  "owner": "Rouslan Khayaouri"
+}
+
+<> 2023-04-27T200423.201.json
+
+###
+

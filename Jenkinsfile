@@ -22,8 +22,8 @@ pipeline {
             }
             steps {
                 sh '''
-                    ./gradlew build -Dquarkus.package.type=native
-                    docker build -f src/main/docker/Dockerfile.native -t ${DOCKER_TAG} .
+                    ./gradlew build
+                    docker build -f src/main/docker/Dockerfile.jvm -t ${DOCKER_TAG} .
                     docker login harbour.739.net -u="rouslan" -p="50m9FiD3"
                     docker push ${DOCKER_TAG}
                 '''

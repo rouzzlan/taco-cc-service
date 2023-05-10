@@ -1,3 +1,6 @@
 [submodule "Deployment-scripts"]
 	path = Deployment-scripts
 	url = ssh://git@gitea.localdomain:22002/Taco-Cloud/Deployment-scripts.git
+[submodule "TacoCloudDocumentation"]
+	path = TacoCloudDocumentation
+	url = ssh://git@gitea.localdomain:22002/Taco-Cloud/TacoCloudDocumentation.git

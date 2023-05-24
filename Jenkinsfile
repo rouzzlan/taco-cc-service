@@ -4,7 +4,7 @@ pipeline {
         jdk 'graalvm-ee-java17-22.3.1'
     }
     environment {
-        DOCKER_TAG = 'harbour.739.net/taco-cloud/cc-service-service:0.0.1'
+        DOCKER_TAG = 'harbour.739.net/taco-cloud/cc-service-service:0.0.3'
     }
     stages {
         stage('Setup') {

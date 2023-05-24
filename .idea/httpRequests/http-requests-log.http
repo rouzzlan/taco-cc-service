@@ -1,3 +1,12 @@
+GET http://localhost:9002/creditcard/974dcfa2e95c543eaf0a63ba75b2f11a6b0a74d3afcc4a0b28c641a98eca1465
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-22T230642.200.json
+
+###
+
 POST http://localhost:9002/creditcard
 Content-Type: application/json
 Content-Length: 98

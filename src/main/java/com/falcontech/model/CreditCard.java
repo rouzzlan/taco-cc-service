@@ -1,7 +1,7 @@
 package com.falcontech.model;
 
 public record CreditCard(
-    Integer number,
+    String number,
     String expiration,
     Integer cvv,
     String owner,

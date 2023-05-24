@@ -40,7 +40,7 @@ public class CreditcardService {
             .find(filer)
             .map(
                 document -> new CreditCard(
-                    document.getInteger("number"),
+                    document.getString("number"),
                     document.getString("expiration"),
                     document.getInteger("cvv"),
                     document.getString("owner"),

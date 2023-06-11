@@ -1,3 +1,48 @@
+GET http://localhost:9002/creditcard/90144e63116d1be8455a9ff7ddbe480c92c791a298026d4c2bafa7d6388b6285
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-06T000917.200.json
+
+###
+
+GET http://localhost:9002/creditcard/90144e63116d1be8455a9ff7ddbe480c92c791a298026d4c2bafa7d6388b6285
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-06T000915.200.json
+
+###
+
+GET http://localhost:9002/creditcard/90144e63116d1be8455a9ff7ddbe480c92c791a298026d4c2bafa7d6388b6285
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-06T000913.200.json
+
+###
+
+GET http://localhost:9002/creditcard/974dcfa2e95c543eaf0a63ba75b2f11a6b0a74d3afcc4a0b28c641a98eca1465
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-05T190654.200.json
+
+###
+
+GET http://localhost:9002/creditcard/974dcfa2e95c543eaf0a63ba75b2f11a6b0a74d3afcc4a0b28c641a98eca1465
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-05T190649.200.json
+
+###
+
 GET http://localhost:9002/creditcard/974dcfa2e95c543eaf0a63ba75b2f11a6b0a74d3afcc4a0b28c641a98eca1465
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
